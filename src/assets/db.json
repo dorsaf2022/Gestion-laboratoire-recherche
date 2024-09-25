@@ -1,0 +1,20 @@
+{
+  "members": [
+    {
+      "id": "2345",
+      "cin": "1251375",
+      "name": "Dorsaf",
+      "type": "ingenieur",
+      "cv": "lien",
+      "createdDate": "18/09/2024"
+    },
+    {
+      "id": "1237",
+      "cin": "1324567",
+      "name": "Aicha",
+      "type": "teacher",
+      "cv": "lien",
+      "createdDate": "12/12/2024"
+    }
+  ]
+}

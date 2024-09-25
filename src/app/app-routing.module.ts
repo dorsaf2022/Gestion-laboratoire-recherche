@@ -1,8 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
-const routes: Routes = [];
-
+import { MemberFormComponent } from './member-form/member-form.component';
+import { MemberComponent } from './member/member.component';
+const routes: Routes = [
+  {
+    path:'create',
+    pathMatch:'full',
+    component:MemberFormComponent
+  },
+  {
+    path:'',
+    pathMatch:'full',
+    component:MemberComponent
+  }
+];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

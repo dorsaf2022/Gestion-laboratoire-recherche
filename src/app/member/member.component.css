@@ -1,0 +1,19 @@
+.member-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    
+        margin-bottom: 20px; /* Ajustez la valeur de la marge selon l'espace souhaité */
+    }
+    
+  
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
